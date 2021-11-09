@@ -1,11 +1,11 @@
 const capitalize = require('./task4');
 
 test('Capitalize first letter of a string', () => {
-  //Arrange
+  // Arrange
   const string = 'emmanuel';
-  //Act
-  let newString = capitalize(string);
+  // Act
+  const newString = capitalize(string);
 
-  //assert
+  // assert
   expect(newString).toBe('Emmanuel');
-})
+});

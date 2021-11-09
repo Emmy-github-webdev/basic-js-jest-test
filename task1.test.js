@@ -1,11 +1,11 @@
 const stringLength = require('./task1');
 
 test('Check length of string', () => {
-  //Arrange
+  // Arrange
   const string = 'tasks';
-  //Act
-  let length = stringLength(string);
+  // Act
+  const length = stringLength(string);
 
-  //Assert
-  expect(length).toBe(5)
-})
+  // Assert
+  expect(length).toBe(5);
+});

@@ -1,12 +1,12 @@
 const reverseString = require('./task2');
 
 test('Reverse string', () => {
-  //Arrange
+  // Arrange
   const string = 'test';
 
-  //Act
-  let revString = reverseString(string);
+  // Act
+  const revString = reverseString(string);
 
-  //Assert
+  // Assert
   expect(revString).toBe('tset');
-})
+});
